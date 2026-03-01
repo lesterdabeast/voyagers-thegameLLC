@@ -1,0 +1,9 @@
+extends Node
+var next_scene = "res://ShopScene.tscn"  # path to next scene
+
+func _on_cuscenebutton_pressed():
+   get_tree().change_scene("res://title_screen.tscn")  # scene root
+
+
+
+# Called when the node enters the scene tree for the first time.
